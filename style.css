@@ -1,0 +1,12 @@
+#navegador-table {
+  font-family: "Open Sans";
+  font-size: 20px;
+  color: (23,33,69)
+}
+
+#servicios-table th,{
+  font-family: "Open Sans";
+  font-size: 20px;
+  color: (23,33,69)
+  text-transform: uppercase;
+}
