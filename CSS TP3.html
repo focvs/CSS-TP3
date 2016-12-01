@@ -5,7 +5,9 @@
 
     <title>A Web Page</title>
 
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Open+Sans|Raleway" rel="stylesheet">
+
     <link rel="stylesheet" href="style.css">
 
   </head>
@@ -17,16 +19,14 @@
 
     <nav>
 
-<table id="navegador-table">
-  <thead>
-    <th><a href="#home">home</a></th>
-    <th><a href="#contact">contact</a></th>
-  </thead>
-</table>
+<ul class="menu">
+    <li><a href="#home">home</a></li>
+    <li><a href="#contact">contact</a></li>
+</ul>
 
-
+    </nav>
 </div>
-   </nav>
+
 
     <main id="home">
 
@@ -37,7 +37,7 @@
 
 <div>
 
-<table id="servicios-table">
+<table>
   <thead>
     <th><img src="circulo 1"/></th>
     <th><img src="circulo 2"/></th>
@@ -45,7 +45,7 @@
     <th><img src="circulo 4"/></th>
   </thead>
 
-  <thead>
+  <thead class="servicios-prestaciones-paquetes">
     <th>speed servers</th>
     <th>hostro services</th>
     <th>live support</th>
@@ -53,7 +53,7 @@
   </thead>
 
   <tbody>
-    <tr>
+    <tr class="descripcion-servicio">
       <td>A paragraph of text with...</td>
       <td>A paragraph of text with...</td>
       <td>A paragraph of text with...</td>
@@ -66,8 +66,8 @@
 
 <div>
 
-		<h2 class="subtitulo">A Subtitle</h2>
-		<p class="descripcion">some text</p>
+		<h2 class="subtitulo">Hostro Services</h2>
+		<p class="descripcion">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam eleifend arcu at feugiat elementum.</p>
 
 <table>
     <thead>
@@ -80,25 +80,25 @@
       <th><img src="circulo 6"/></th>
     </thead>
 
-    <thead>
-       <th>some text</th>
-       <th>some text</th>
-       <th>some text</th>
+    <thead class="servicios-prestaciones-paquetes">
+       <th>retina ready</th>
+       <th>easy customize</th>
+       <th>pixel perfect</th>
        <th></th>
-       <th>some text</th>
-       <th>some text</th>
-       <th>some text</th>
+       <th>unlimited colors</th>
+       <th>features</th>
+       <th>support today</th>
     </thead>
 
   <tbody>
-    <tr>
-      <td>text</td>
-      <td>text</td>
-      <td>text</td>
+    <tr class="descripcion-servicio">
+      <td>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</td>
+      <td>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</td>
+      <td>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</td>
       <td></td>
-      <td>text</td>
-      <td>text</td>
-      <td>text</td>
+      <td>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</td>
+      <td>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</td>
+      <td>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</td>
     </tr>
   </tbody>
 </table>
@@ -106,77 +106,81 @@
 
 </div>
 
+<img src="imagen de fondo"/>
+
 <div>
-<h2 class="subtitulo">A Subtitle</h2>
-<p class="descripcion">some text</p>
+<h2 class="subtitulo">Pricing Tables</h2>
+<p class="descripcion">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam eleifend arcu at feugiat elementum.</p>
 
 <table>
-    <thead>
-      <th>Some text</th>
-      <th>Some text</th>
-      <th>Some text</th>
-      <th>Some text</th>
+    <thead class="servicios-prestaciones-paquetes">
+      <th>small package</th>
+      <th>normal package</th>
+      <th>big package</th>
+      <th>best package</th>
     </thead>
 
-    <thead>
-      <th>$95</th>
-      <th>$95</th>
-      <th>$95</th>
-      <th>$95</th>
+    <thead class="precio">
+      <th>$95
+       <p class="descripcion">/mount</p>
+      </th>
+      <th>$95
+       <p class="descripcion">/mount</p>
+      </th>
+      <th>$95
+       <p class="descripcion">/mount</p>
+      </th>
+      <th>$95
+       <p class="descripcion">/mount</p>
+      </th>
     </thead>
 
     <tbody>
-      <tr>
-        <td>
-          <ul>
-            <li>some text 1</li>
-            <li>some text 1</li>
-            <li>some text 1</li>
-            <li>some text 1</li>
-          </ul>
-          <input type="submit">
-        </td>
+      <tr class="descripcion-servicio">
+        <td>Hard drive, GB<span class="serv-1">2</span></td>
+        <td>Hard drive, GB<span class="serv-2">5</span></td>
+        <td>Hard drive, GB<span class="serv-3">10</span></td>
+        <td>Hard drive, GB<span class="serv-4">15</span></td>
+      </tr>
 
-        <td>
-          <ul>
-            <li>some text 1</li>
-            <li>some text 1</li>
-            <li>some text 1</li>
-            <li>some text 1</li>
-          </ul>
-          <input type="submit">
-        </td>
-
-        <td>
-          <ul>
-            <li>some text 1</li>
-            <li>some text 1</li>
-            <li>some text 1</li>
-            <li>some text 1</li>
-          </ul>
-              <input type="submit">
-        </td>
-
-        <td>
-          <ul>
-            <li>some text 1</li>
-            <li>some text 1</li>
-            <li>some text 1</li>
-            <li>some text 1</li>
-          </ul>
-              <input type="submit">
-        </td>
+      <tr class="descripcion-servicio">
+        <td>Transfer, GB<span class="serv-1">1</span></td>
+        <td>Transfer, GB<span class="serv-2">2</span></td>
+        <td>Transfer, GB<span class="serv-3">3</span></td>
+        <td>Transfer, GB<span class="serv-4">4</span></td>
 
       </tr>
+      <tr class="descripcion-servicio">
+        <td>Data bases<span class="serv-1">1</span></td>
+        <td>Data bases<span class="serv-2">2</span></td>
+        <td>Data bases<span class="serv-3">3</span></td>
+        <td>Data bases<span class="serv-4">4</span></td>
+      </tr>
+      <tr class="descripcion-servicio">
+        <td>Dashboards<span class="serv-1">1</span></td>
+        <td>Dashboards<span class="serv-2">2</span></td>
+        <td>Dashboards<span class="serv-3">3</span></td>
+        <td>Dashboards<span class="serv-4">4</span></td>
+      </tr>
+
+      <tr>
+        <td><input type="submit"></td>
+        <td><input type="submit"></td>
+        <td><input type="submit"></td>
+        <td><input type="submit"></td>
+      </tr>
+
     </tbody>
 
 </table>
 </div>
 
-<p>Hosting use...</P>
+<div class="pie-de-pagina">
+  <p>Hosting use...</P>
+</div>
 
 	<footer>
-		<p>some text</p>
+		<p>Right reserved</p>
     <ul>
       <li><a href="#home">home</a></li>
       <li><a href="#contact">acerca de</a></li>

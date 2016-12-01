@@ -1,12 +1,92 @@
-#navegador-table {
-  font-family: "Open Sans";
-  font-size: 20px;
-  color: (23,33,69)
+.menu {
+  font-family: 'Open Sans', sans-serif;
+  font-size: 10px;
+  color: rgb(23,33,69);
+  text-transform: uppercase;
 }
 
-#servicios-table th,{
-  font-family: "Open Sans";
-  font-size: 20px;
-  color: (23,33,69)
+.servicios-prestaciones-paquetes {
+  font-family: 'Open Sans', sans-serif;
+  font-size: 11px;
+  color: rgb(23,33,69);
   text-transform: uppercase;
+}
+
+.descripcion-servicio {
+  font-family: 'Raleway', sans-serif;
+  font-size: 10px;
+  color: rgb(205,208,209);
+  text-transform:
+}
+
+
+.subtitulo {
+  font-family: 'Open Sans', sans-serif;
+  font-size: 25px;
+  color: rgb(23,33,69);
+  text-transform:capitalize;
+}
+
+.descripcion {
+    font-family: 'Raleway', sans-serif;
+    font-size: 10px;
+    color: rgb(205,208,209);
+    text-transform: lowercase;
+    width: 250px;
+    height: 40px;
+}
+
+.precio  {
+  font-family: 'Open Sans', sans-serif;
+  font-size: 45px;
+  color: rgb(23,33,69);
+  text-transform:capitalize;
+}
+
+span.serv-1 {
+  font-family: 'Open Sans', sans-serif;
+  font-size: 11px;
+  color: rgb(140,217,217);
+  text-transform:capitalize;
+  text-align: right;
+}
+
+span.serv-2 {
+  font-family: 'Open Sans', sans-serif;
+  font-size: 11px;
+  color: rgb(218,206,144);
+  text-transform:capitalize;
+  text-align: right;
+}
+
+span.serv-3 {
+  font-family: 'Open Sans', sans-serif;
+  font-size: 11px;
+  color: rgb(203,154,98);
+  text-transform:capitalize;
+  text-align: right;
+}
+
+span.serv-4 {
+  font-family: 'Open Sans', sans-serif;
+  font-size: 11px;
+  color: rgb(195,107,75);
+  text-transform:capitalize;
+  text-align: right;
+}
+.pie-de-pagina {
+    background-color: rgb(18,36,54);
+    height: 80px;
+    font-family: 'Raleway', sans-serif;
+    font-size: 20px;
+    color: rgb(205,208,209);
+}
+
+footer {
+  background-color: black;
+  height: 50px;
+  font-family: 'Raleway', sans-serif;
+  font-size: 10px;
+  color: rgb(205,208,209);
+  text-transform: lowercase;
 }
